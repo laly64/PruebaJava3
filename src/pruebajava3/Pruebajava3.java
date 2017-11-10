@@ -5,17 +5,28 @@
  */
 package pruebajava3;
 
+import ventana3.interfaz1;
+import javax.swing.JFrame;
+
 /**
- *
- * @author LAB02
+ *Lavinia Avalos Oyarzo
+ *  @author LAB02
+ * Fecha:Noviembre 10 de 2017
+ * Programa: PruebaJava3
+ * Responsabilidad: Clase principal
  */
 public class Pruebajava3 {
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args) 
+            
+    {
+      interfaz1 w = new interfaz1();
+      w.setVisible(true);
+      w.setBounds(0, 0, 450, 500);
+      w.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     
 }
