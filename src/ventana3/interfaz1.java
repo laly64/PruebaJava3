@@ -6,7 +6,7 @@
 package ventana3;
 import javax.swing.*;
 import java.awt.*;
-//Paso 14 - Importar la clase conexion
+
 import bd.ConexionBD;
 import java.sql.Connection;
 import java.awt.event.*;
@@ -51,7 +51,7 @@ public class interfaz1 extends JFrame
    boton2.setText("Desconectar");
    panel.setBackground(Color.PINK);
    
-   //PASO 16 - agregamos escuchadores al boton
+   
    boton.addActionListener(new ActionListener()
            
    { 
@@ -70,7 +70,7 @@ public class interfaz1 extends JFrame
        
        public void actionPerformed(ActionEvent evt)
        {
-          con.conectar();
+          con.desconectar();
        }
    
            });
