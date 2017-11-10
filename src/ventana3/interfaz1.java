@@ -13,8 +13,12 @@ import java.awt.event.*;
 
 
 /**
- *
- * @author LAB02
+ * *Lavinia Avalos Oyarzo
+ *  @author LAB02
+ * Fecha:Noviembre 10 de 2017
+ * Programa: Interfaz1.Java
+ * Responsabilidad: Clase principal
+ * 
  */
 public class interfaz1 extends JFrame
 {
@@ -24,15 +28,15 @@ public class interfaz1 extends JFrame
   JButton boton;
   JButton boton2;
   
-  //Paso 15 - Creación de un objeto tipo ConexionBD
+ 
   ConexionBD con;
   
   
-  public interfaz1() //poner llaves
+  public interfaz1() 
   {
    panel = new JPanel();
    label = new JLabel();  
-   text  =  new JTextField(20);
+   text  =  new JTextField(15);
    boton = new JButton();
    boton2 = new JButton();
    
@@ -42,7 +46,7 @@ public class interfaz1 extends JFrame
    panel.add(boton); 
    panel.add(boton2);
    
-   label.setText("Atributo");
+   label.setText("Base de Datos");
    boton.setText("Conectar");
    boton2.setText("Desconectar");
    panel.setBackground(Color.PINK);
